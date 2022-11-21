@@ -2,6 +2,7 @@ from flask import Flask, request, url_for, redirect, render_template
 from PIL import Image, ImageFilter
 import urllib.request
 import random
+import gunicorn
 
 
 app = Flask(__name__)
