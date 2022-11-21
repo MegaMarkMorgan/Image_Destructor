@@ -1,1 +1,1 @@
-web: gunicorn wsgi:Image_Destructor.py
+web: gunicorn app:app
